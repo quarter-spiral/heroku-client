@@ -1,4 +1,4 @@
-# Heroku::Client
+# Qs::Heroku::Client
 
 A library to use Heroku's [Platform API](https://devcenter.heroku.com/articles/platform-api-reference).
 
@@ -9,8 +9,8 @@ A library to use Heroku's [Platform API](https://devcenter.heroku.com/articles/p
 Create a client using your Heroku email address and the corresponding [API token](https://dashboard.heroku.com/account#show-api-key).
 
 ```ruby
-require 'heroku/client'
-client = Heroku::Client.new('your-heroku-mail@example.com', 'your-heroku-api-token')
+require 'qs/heroku/client'
+client = Qs::Heroku::Client.new('your-heroku-mail@example.com', 'your-heroku-api-token')
 ```
 
 ## Retrieve the current setup of an app
