@@ -1,4 +1,4 @@
-# 0.0.2 / Unreleased
+# 0.0.2 / 2013-08-02
 
 * Moves everything under the ``Qs`` namespace
 
